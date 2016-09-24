@@ -845,19 +845,19 @@ li.bookmark {
   color: #fff;
   left: 0;
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
   .media-query-reporter:after {
       content: "320 to 480px";
       background-color: hsla(90,60%,40%,0.7);
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
   .media-query-reporter:after {
       content: "480 to 768px";
       background-color: hsla(180,60%,40%,0.7);
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .media-query-reporter:after {
       content: "768 to 1024px";
       background-color: hsla(270,60%,40%,0.7);
