@@ -934,6 +934,10 @@ li.bookmark {
   .recommended-section .stories li:nth-child(3n+1) {
     margin-left: 0;
   }
+
+  .recommended-section .stories li:nth-child(1n+4) {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 750px) {
