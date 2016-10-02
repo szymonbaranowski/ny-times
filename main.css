@@ -913,6 +913,13 @@ li.bookmark {
     max-width: 705px;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .supplements {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1050px) {
   .media-query-reporter:after {
       content: "1050 and up";
