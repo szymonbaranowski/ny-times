@@ -863,7 +863,12 @@ li.bookmark {
       background-color: hsla(270,60%,40%,0.7);
   }
 }
-@media only screen and (max-width: 1050px) {
+
+@media only screen and (max-width: 1200px) {
+  .main {
+    max-width: 975px;
+  }
+
   .split-6-layout .last-column {
     width: 100%;
     float: left;
@@ -902,6 +907,10 @@ li.bookmark {
   .split-6-layout .last-column .secondary-menu:last-child {
     border: none;
     padding: 0;
+  }
+@media only screen and (max-width: 1000px) {
+  .main {
+    max-width: 705px;
   }
 }
 @media only screen and (min-width: 1050px) {
