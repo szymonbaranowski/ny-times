@@ -946,6 +946,20 @@ li.bookmark {
   .supplements {
     display: none;
   }
+
+  .ribbon {
+    display: none;
+  }
+
+  .quick-nav button .button-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main-header .user-tools {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1050px) {
