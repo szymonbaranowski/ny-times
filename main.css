@@ -9,6 +9,7 @@
 }
 
 .header-container {
+  margin: 0 auto 0 30px;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -950,5 +951,11 @@ li.bookmark {
   .media-query-reporter:after {
       content: "1050 and up";
       background-color: hsla(360,60%,40%,0.7);
+  }
+}
+
+@media only screen and (min-width: 1665px) {
+  .header-container {
+    margin: 0 auto;
   }
 }
