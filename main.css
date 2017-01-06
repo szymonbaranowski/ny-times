@@ -114,6 +114,7 @@
   position: relative;
   float: left;
   counter-reset: li;
+  display: inline-flex;
 }
 
 .news-collection li:before {
